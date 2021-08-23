@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg" />
+  <title>Слайдер</title>
+
+</head>
+
+<body>
+  <button class="music">
+    &#9834;
+  </button>
+  <audio class="audio" autoplay loop="loop">
+    <source src="audio/Muzyka_dlya_dushi_-_Babochki_na_snegu_Elegiya_kompozitor_Rajmond_Pauls_(Dydka.com).mp3"
+      type="audio/mpeg">
+  </audio>
+  <button class="button next">
+    Next
+  </button>
+  <button class="button prev">Prev</button>
+  <div class="container">
+    <div class="sidebar">
+      <div style="background-color: #043d15">
+        <p>Как призрачна она,</p>
+        <p>Бабочка на моей руке,</p>
+        <p>Словно чья-то душа!</p>
+        <p>Бусон</p>
+      </div>
+      <div style="background-color:#9e649b">
+        <p>И осенью хочется жить</p>
+        <p>Этой бабочке: пьет торопливо</p>
+        <p>С хризантемы росу.</p>
+        <p>Басё</p>
+      </div>
+      <div style="background-color: #99c72f">
+        <p>Грузный колокол.</p>
+        <p>A на самом его краю</p>
+        <p>Дремлет бабочка.</p>
+        <p>Бусон</p>
+      </div>
+      <div style="background-color: #e89222">
+        <p>Вон бабочки снуют</p>
+        <p> Туда-сюда - все ищут</p>
+        <p> Ушедшую весну...</p>
+        <p>Гомэй</p>
+      </div>
+    </div>
+
+    <div class="main-slide">
+      <div style="background-color: #e89222">
+        <video width="480" height="320" autoplay loop="loop"
+          poster="https://images.unsplash.com/photo-1552757158-788e68d046dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1125&q=80">
+          <source src="video/1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div style="background-color: #99c72f">
+        <video width="480" height="320" autoplay loop="loop"
+          poster="https://images.unsplash.com/photo-1540592220003-3d3fb31ed075?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80">
+          <source src="video/2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div style="background-color:#9e649b"><video width="480" height="320" autoplay loop="loop"
+          poster="https://images.unsplash.com/photo-1534198634523-ac9ebf960e33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80">
+          <source src="video/3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div style="background-color: #043d15">
+        <video width="480" height="320" autoplay loop="loop"
+          poster="https://images.unsplash.com/photo-1516024802505-dca3acba2326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80">
+          <source src="video/4.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="down-button">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+      <button class="up-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </div>
+  <script src='app.js'></script>
+</body>
+
+</html>
